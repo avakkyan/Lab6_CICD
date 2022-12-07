@@ -20,4 +20,4 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: build in bin
-      run: dotnet publish -c Release -r matrix
+      run: dotnet publish -c Release -r win-x64
