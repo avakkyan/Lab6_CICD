@@ -19,3 +19,5 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
+    - name: build in bin
+      run: dotnet publish -c Release -r matrix
